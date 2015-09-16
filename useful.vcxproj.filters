@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="bpnet">
+      <UniqueIdentifier>{20a2173a-a589-45be-8ac1-3692759b74af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="triangle">
+      <UniqueIdentifier>{5be773a8-fc99-4f1c-acd8-c9e06a2c71d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pgm_mnist">
+      <UniqueIdentifier>{74ce4714-f3f2-47cd-8b47-6308d2c6cf79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{f6e48bd6-cb30-499d-a7a1-d6866744f1d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\file_view.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\file_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\class_view.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\class_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\fileview.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\fileview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\classview.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\classview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\explorer.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\explorer_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sort.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sort_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\menuimages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\menuimages_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\output_wnd.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\output_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_wnd.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="UserImages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\useful.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\usefulDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\useful.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="useful.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="usefulDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="usefulView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MnistPredictDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pgmFile.h">
+      <Filter>pgm_mnist</Filter>
+    </ClInclude>
+    <ClInclude Include="mnistFile.h">
+      <Filter>pgm_mnist</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialog3D.h">
+      <Filter>OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\MapProperty.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\CMouseEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\CMouseListeners.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\CnlineShapes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\CRange.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\CViewCtrlMouseListener.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpengine\dataset.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\DataSource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\DBFInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\Feature.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\FeatureClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpengine\field.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpengine\fields.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpengine\fieldvalue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\GeoAnnotation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\Geometry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\GeoPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\GeoPoints.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\GeoPolygon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\GeoPolyline.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\ILayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\IMouseListener.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\IRender.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\LayerProperty.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\Layers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\MapControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\MapLayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\ReadDBF.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpengine\row.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpEngine\ShpRender.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shpengine\table.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tri_create\DT_Matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tri_create\tricommon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bpnet\backprop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="COpenGL\COpenGL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="COpenGL\GLUT.H">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="COpenGL\MyClass.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="useful.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="usefulDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="usefulView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MnistPredictDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pgmFile.cpp">
+      <Filter>pgm_mnist</Filter>
+    </ClCompile>
+    <ClCompile Include="mnistFile.cpp">
+      <Filter>pgm_mnist</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialog3D.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\Table.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\CMouseEvent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\CMouseListeners.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\CViewCtrlMouseListener.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\DataSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\DataSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\DBFInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\Feature.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\FeatureClass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\Field.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\Fields.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\FieldValue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\GeoAnnotation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\GeoPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\GeoPoints.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\GeoPolygon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\GeoPolyline.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\LayerProperty.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\Layers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\MapControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\MapLayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\MapProperty.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\ReadDBF.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\Row.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="shpEngine\ShpRender.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tri_create\tri_algebra.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tri_create\tri_geometry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tri_create\tri_triangulation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tri_create\tri_utility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bpnet\backprop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="useful.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="Debug\useful_manifest.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="Debug\useful.exe.embed.manifest" />
+    <Manifest Include="Debug\useful.exe.intermediate.manifest" />
+    <Manifest Include="Release\useful.exe.intermediate.manifest" />
+  </ItemGroup>
+</Project>

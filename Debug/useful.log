@@ -1,0 +1,212 @@
+﻿生成启动时间为 2015/9/15 20:21:13。
+     1>项目“D:\useful\useful\useful.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“D:\useful\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\useful.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\useful.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\useful.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bpnet\backprop.cpp Dialog3D.cpp MainFrm.cpp mnistFile.cpp MnistPredictDlg.cpp OutputWnd.cpp pgmFile.cpp PropertiesWnd.cpp shpEngine\CMouseEvent.cpp shpEngine\CMouseListeners.cpp shpEngine\CViewCtrlMouseListener.cpp shpEngine\DataSet.cpp shpEngine\DataSource.cpp shpEngine\DBFInfo.cpp shpEngine\Feature.cpp shpEngine\FeatureClass.cpp shpEngine\Field.cpp shpEngine\Fields.cpp shpEngine\FieldValue.cpp shpEngine\GeoAnnotation.cpp shpEngine\GeoPoint.cpp shpEngine\GeoPoints.cpp shpEngine\GeoPolygon.cpp shpEngine\GeoPolyline.cpp shpEngine\LayerProperty.cpp shpEngine\Layers.cpp shpEngine\MapControl.cpp shpEngine\MapLayer.cpp shpEngine\MapProperty.cpp shpEngine\ReadDBF.cpp shpEngine\Row.cpp shpEngine\ShpRender.cpp shpEngine\Table.cpp tri_create\tri_algebra.cpp tri_create\tri_geometry.cpp tri_create\tri_triangulation.cpp tri_create\tri_utility.cpp useful.cpp usefulDoc.cpp usefulView.cpp ViewTree.cpp
+         ViewTree.cpp
+         usefulView.cpp
+     1>d:\useful\useful\usefulview.cpp(170): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\useful\useful\usefulview.cpp(172): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\usefulview.cpp(172): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\usefulview.cpp(173): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\usefulview.cpp(173): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\usefulview.cpp(175): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\usefulview.cpp(175): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\usefulview.cpp(176): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\usefulview.cpp(176): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\usefulview.cpp(178): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\usefulview.cpp(178): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\usefulview.cpp(179): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\usefulview.cpp(179): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\usefulview.cpp(202): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\useful\useful\usefulview.cpp(203): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\usefulview.cpp(203): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\usefulview.cpp(203): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\usefulview.cpp(203): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         usefulDoc.cpp
+     1>d:\useful\useful\usefuldoc.cpp(156): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\useful\useful\usefuldoc.cpp(169): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\useful\useful\usefuldoc.cpp(186): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\useful\useful\usefuldoc.cpp(217): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\useful\useful\usefuldoc.cpp(218): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         useful.cpp
+         tri_utility.cpp
+         tri_triangulation.cpp
+     1>d:\useful\useful\tri_create\tri_triangulation.cpp(251): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\useful\useful\tri_create\tri_triangulation.cpp(278): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\useful\useful\tri_create\tri_triangulation.cpp(333): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\useful\useful\tri_create\tri_triangulation.cpp(349): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\useful\useful\tri_create\tri_triangulation.cpp(350): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\useful\useful\tri_create\tri_triangulation.cpp(355): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\useful\useful\tri_create\tri_triangulation.cpp(356): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\useful\useful\tri_create\tri_triangulation.cpp(357): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\useful\useful\tri_create\tri_triangulation.cpp(393): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\useful\useful\tri_create\tri_triangulation.cpp(410): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\useful\useful\tri_create\tri_triangulation.cpp(411): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\useful\useful\tri_create\tri_triangulation.cpp(412): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\useful\useful\tri_create\tri_triangulation.cpp(440): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         tri_geometry.cpp
+         tri_algebra.cpp
+         Table.cpp
+     1>d:\useful\useful\shpengine\table.cpp(11): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+         ShpRender.cpp
+     1>d:\useful\useful\shpengine\shprender.cpp(76): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\shpengine\shprender.cpp(76): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\shpengine\shprender.cpp(76): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\shpengine\shprender.cpp(76): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\shpengine\shprender.cpp(108): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\shpengine\shprender.cpp(108): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\shpengine\shprender.cpp(109): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\shpengine\shprender.cpp(109): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\shpengine\shprender.cpp(146): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\shpengine\shprender.cpp(146): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\shpengine\shprender.cpp(147): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>d:\useful\useful\shpengine\shprender.cpp(147): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+         Row.cpp
+         ReadDBF.cpp
+     1>d:\useful\useful\shpengine\readdbf.cpp(13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\useful\useful\shpengine\readdbf.cpp(26): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\useful\useful\shpengine\readdbf.cpp(27): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\useful\useful\shpengine\readdbf.cpp(28): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\useful\useful\shpengine\readdbf.cpp(83): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(248) : 参见“strnicmp”的声明
+     1>d:\useful\useful\shpengine\readdbf.cpp(106): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(248) : 参见“strnicmp”的声明
+     1>d:\useful\useful\shpengine\readdbf.cpp(162): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(248) : 参见“strnicmp”的声明
+     1>d:\useful\useful\shpengine\readdbf.cpp(216): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\useful\useful\shpengine\readdbf.cpp(235): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\useful\useful\shpengine\readdbf.cpp(240): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(253) : 参见“fscanf”的声明
+     1>d:\useful\useful\shpengine\readdbf.cpp(319): warning C4996: 'strnicmp': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strnicmp. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(248) : 参见“strnicmp”的声明
+         MapProperty.cpp
+         MapLayer.cpp
+     1>d:\useful\useful\shpengine\maplayer.cpp(25): warning C4150: 删除指向不完整“IRender”类型的指针；没有调用析构函数
+                 d:\useful\useful\shpengine\ilayer.h(7) : 参见“IRender”的声明
+     1>d:\useful\useful\shpengine\maplayer.cpp(66): warning C4150: 删除指向不完整“IRender”类型的指针；没有调用析构函数
+                 d:\useful\useful\shpengine\ilayer.h(7) : 参见“IRender”的声明
+         MapControl.cpp
+     1>d:\useful\useful\shpengine\mapcontrol.cpp(356): warning C4101: “i”: 未引用的局部变量
+     1>d:\useful\useful\shpengine\mapcontrol.cpp(398): warning C4101: “i”: 未引用的局部变量
+         Layers.cpp
+     1>d:\useful\useful\shpengine\layers.cpp(16): warning C4018: “<”: 有符号/无符号不匹配
+         LayerProperty.cpp
+     1>d:\useful\useful\shpengine\layerproperty.cpp(12): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+         GeoPolyline.cpp
+         GeoPolygon.cpp
+         GeoPoints.cpp
+         正在生成代码...
+     1>d:\useful\useful\shpengine\row.cpp(43): warning C4715: “Row::GetFieldValue”: 不是所有的控件路径都返回值
+         正在编译...
+         GeoPoint.cpp
+         GeoAnnotation.cpp
+     1>d:\useful\useful\shpengine\geoannotation.cpp(21): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\useful\useful\shpengine\geoannotation.cpp(64): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+         FieldValue.cpp
+     1>d:\useful\useful\shpengine\fieldvalue.cpp(60): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\useful\useful\shpengine\fieldvalue.cpp(66): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+         Fields.cpp
+     1>d:\useful\useful\shpengine\fields.cpp(14): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\useful\useful\shpengine\fields.cpp(52): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\useful\useful\shpengine\fields.cpp(61): warning C4018: “>=”: 有符号/无符号不匹配
+     1>d:\useful\useful\shpengine\fields.cpp(71): warning C4018: “<”: 有符号/无符号不匹配
+         Field.cpp
+     1>d:\useful\useful\shpengine\field.cpp(10): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>d:\useful\useful\shpengine\field.cpp(13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\useful\useful\shpengine\field.cpp(16): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>d:\useful\useful\shpengine\field.cpp(19): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>d:\useful\useful\shpengine\field.cpp(46): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 参见“strncpy”的声明
+     1>d:\useful\useful\shpengine\field.cpp(49): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+         FeatureClass.cpp
+         Feature.cpp
+         DBFInfo.cpp
+     1>d:\useful\useful\shpengine\dbfinfo.cpp(32): warning C4018: “<”: 有符号/无符号不匹配
+         DataSource.cpp
+         DataSet.cpp
+     1>d:\useful\useful\shpengine\dataset.cpp(16): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+         CViewCtrlMouseListener.cpp
+         CMouseListeners.cpp
+         CMouseEvent.cpp
+         PropertiesWnd.cpp
+         pgmFile.cpp
+     1>d:\useful\useful\pgmfile.cpp(200): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\useful\useful\pgmfile.cpp(214): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\useful\useful\pgmfile.cpp(215): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\useful\useful\pgmfile.cpp(221): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>d:\useful\useful\pgmfile.cpp(222): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+         OutputWnd.cpp
+         MnistPredictDlg.cpp
+         mnistFile.cpp
+     1>d:\useful\useful\mnistfile.cpp(86): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+         MainFrm.cpp
+         Dialog3D.cpp
+     1>d:\useful\useful\dialog3d.cpp(174): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\useful\useful\dialog3d.cpp(185): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\useful\useful\dialog3d.cpp(211): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>d:\useful\useful\dialog3d.cpp(243): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\useful\useful\dialog3d.cpp(244): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\useful\useful\dialog3d.cpp(259): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+     1>d:\useful\useful\shpengine\datasource.cpp(44): warning C4715: “DataSource::GetDataSet”: 不是所有的控件路径都返回值
+         正在编译...
+         backprop.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _AFXDLL /l"0x0804" /IDebug\ /nologo /fo"Debug\useful_manifest.res" Debug\useful_manifest.rc 
+     1>RC : fatal error RC1110: could not open Debug\useful_manifest.rc
+         
+     1>已完成生成项目“D:\useful\useful\useful.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:17.40
